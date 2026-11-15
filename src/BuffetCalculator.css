@@ -1,0 +1,125 @@
+.bc-page {
+  min-height: 100vh;
+  background: #eef0f3;
+  padding: 24px 14px;
+  font-family: "Noto Sans Thai", system-ui, sans-serif;
+  color: #1f2430;
+  box-sizing: border-box;
+}
+.bc-page *,
+.bc-page *::before,
+.bc-page *::after {
+  box-sizing: border-box;
+}
+.bc-card {
+  max-width: 440px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px 22px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+}
+.bc-card h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.bc-sub {
+  text-align: center;
+  color: #6b7280;
+  margin: 2px 0 22px;
+  font-size: 0.95rem;
+}
+.bc-card label {
+  display: block;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 14px 0 6px;
+}
+.bc-card input[type="number"],
+.bc-card select {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #d4d8de;
+  border-radius: 8px;
+  font: inherit;
+  background: #fff;
+  color: inherit;
+}
+.bc-card input:disabled {
+  background: #e9ecef;
+  cursor: not-allowed;
+}
+.bc-card fieldset {
+  border: 1px solid #d4d8de;
+  border-radius: 8px;
+  margin: 18px 0 0;
+  padding: 6px 14px 14px;
+}
+.bc-card legend {
+  font-size: 0.8rem;
+  color: #6b7280;
+  padding: 0 6px;
+}
+.bc-card .bc-radio {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: inherit;
+  cursor: pointer;
+}
+.bc-radio input {
+  accent-color: #4b3df2;
+}
+.bc-hint {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: 6px;
+}
+.bc-btns {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+}
+.bc-btns button {
+  flex: 1;
+  border: 0;
+  border-radius: 8px;
+  padding: 13px;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.bc-calc {
+  background: #4b3df2;
+}
+.bc-reset {
+  background: #ff2d3a;
+}
+.bc-error {
+  color: #d92d20;
+  font-size: 0.9rem;
+  margin-top: 12px;
+  min-height: 1.2em;
+  text-align: center;
+}
+.bc-sum {
+  background: #eef1ff;
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+  margin-top: 8px;
+}
+.bc-sum b {
+  color: #4b3df2;
+  font-size: 1.3rem;
+}
+.bc-detail {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: 8px;
+  line-height: 1.6;
+}
